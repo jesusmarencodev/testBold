@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+
 
 const Header = () => {
     return (
@@ -9,6 +10,7 @@ const Header = () => {
             <nav className="Header__nav">
                 <a  href="#!">Mi negocio</a>
                 <a  href="#!">Ayuda</a>
+                <i class="far fa-question-circle"></i>
             </nav>
         </div>
     )

@@ -7,7 +7,7 @@ const App = () => {
     <div className="generalbg">
       <Header/>
       <div>
-        safdsfs
+      <i class="fas fa-layer-group"></i>
       </div>
       
     </div>

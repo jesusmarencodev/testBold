@@ -4,8 +4,13 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .generalbg {
     background: $bgColor;
+    height: 100vh;
 }
 
 .padding_generic {
@@ -27,7 +32,9 @@
 }
 
 
-
+.jeje {
+    color : white
+}
 
 
 
