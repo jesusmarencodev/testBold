@@ -1,0 +1,24 @@
+.Header {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(9, 9, 121, 0.7959558823529411) 62%,
+        rgba(222, 60, 60, 0.927608543417367) 100%
+    );
+
+    height: 120px;
+    justify-content: space-between;
+    padding: 0 2rem;
+
+    &__logo {
+        width: 90px;
+    }
+
+    &__nav a {
+        color: $glight;
+        list-style: none;
+        text-decoration: none;
+        padding: 1rem;
+    }
+}
