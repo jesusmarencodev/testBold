@@ -1,0 +1,99 @@
+.TableData {
+    box-sizing: border-box !important;
+    &__title {
+        align-items: center;
+        background: rgb(2, 0, 36);
+        background: linear-gradient(
+            90deg,
+            rgba(2, 0, 36, 1) 0%,
+            rgba(9, 9, 121, 0.7959558823529411) 62%,
+            rgba(222, 60, 60, 0.927608543417367) 100%
+        );
+        border-radius: 15px 15px 0px 0px;
+        color: $bgColor;
+        height: 40px;
+        padding: 0 2rem;
+    }
+    &__head {
+        color: $gblack;
+    }
+    &__head_title {
+        align-items: center;
+        color: $gblack !important;
+        display: flex;
+        font-size: 14px;
+        justify-content: space-around;
+        min-height: 2.5rem;
+    }
+    &__content {
+        align-items: center;
+        display: flex;
+        font-size: 13px;
+        justify-content: space-around;
+        min-height: 2.5rem;
+    }
+    ul {
+        background: $backwhite;
+    }
+    li {
+        border-bottom: 1px solid $glight;
+        color: $cnumbers;
+        position: relative;
+
+        .blueText, .blueNumber {
+            color: $pblue;
+            font-size: 13px;
+        }
+
+        .blueNumber {
+            font-size: 16px;
+        }
+        .deductionBold {
+            color: $cnumbers;
+            font-size: 12px;
+        }
+        .deductionBoldNumber {
+            color: $pred;
+            font-size: 12px;
+        }
+    }
+    .flag_li {
+        border-left: 3px solid $pblue;
+    }
+    .flag_sec {
+        border-left: 3px solid $cnumbers;
+    }
+
+}
+
+
+@media screen and (max-width:768px){
+    .TableData {
+        &__title {
+            font-size: 14px;
+        }
+        &__value {
+            font-size: 1.8rem;
+        }
+        li {
+            
+
+            .blueText, .blueNumber {
+                color: $pblue;
+                font-size: 13px;
+            }
+    
+            .blueNumber {
+                font-size: 14px;
+            }
+            .deductionBold {
+                color: $cnumbers;
+                font-size: 11px;
+            }
+            .deductionBoldNumber {
+                color: $pred;
+                font-size: 11px;
+            }
+        }
+    }    
+}

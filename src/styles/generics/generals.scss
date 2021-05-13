@@ -9,13 +9,11 @@ body {
 }
 
 .generalbg {
-    background: $bgColor;
-    height: 100vh;
-}
-
-.padding_generic {
+    background: $glight;
 
 }
+
+
 
 //flex
 .dc_flex_row {
@@ -32,10 +30,9 @@ body {
 }
 
 
-.jeje {
-    color : white
+.c-pointer {
+    cursor: pointer;
 }
-
 
 
 

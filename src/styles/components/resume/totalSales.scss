@@ -1,0 +1,45 @@
+.TotalSales {
+    background: $bgColor;
+    border-radius: 15px 15px;
+    &__title {
+        border-radius: 15px 15px 0px 0px;
+        background: #c94b4b; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #4b134f, #c94b4b); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+            to right,
+            #4b134f,
+            #c94b4b
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        justify-content: space-between;
+        align-items: center;
+
+        span,
+        i {
+            color: $bgColor;
+        }
+    }
+
+    &__value {
+        background: linear-gradient(to right, #4b134f, #c94b4b);
+        color: transparent;
+        font-size: 2.5rem;
+        -webkit-background-clip: text;
+    }
+
+    &__date {
+        color: $pblue;
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width:450px){
+    .TotalSales {
+        &__title {
+            font-size: 14px;
+        }
+        &__value {
+            font-size: 1.8rem;
+        }
+    }    
+}

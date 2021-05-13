@@ -2,12 +2,18 @@
 @import './generics/settings';
 //Generals
 @import './generics/generals.scss';
-@import './generics/spaicing.scss';
 
 //****Components****//
 
 //header
 @import './components/header/header.scss';
+//Resume
+@import './components/resume/resume.scss';
+@import './components/resume/totalSales.scss';
+@import './components/resume/filters.scss';
+//TableData
+@import './components/tableData/tableData.scss';
+
 
 
 

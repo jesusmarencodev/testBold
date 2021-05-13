@@ -1,0 +1,80 @@
+.Filters {
+    align-items: center;
+    background: $backwhite;
+    justify-content: space-around;
+    padding: .2rem;
+    
+
+    .btn_filter, .btn_active{
+        background: $backwhite;
+        border-radius :20px;
+        font-size: 15px;
+        width: 30%;
+    }
+    .btn_active {
+        background: $glight;
+    }
+
+}
+
+.Flotante {
+    background: $backwhite;
+    border-radius: 12px;
+    padding: 0 .5rem;
+    position: absolute;
+    width: 50%;
+    right: 2%;
+    z-index: 10;
+
+    p {
+        color: $pblue;
+        font-weight: 500;
+    }
+
+    i {
+        position: absolute;
+        right: 18px;
+        top: 8px;
+    }
+
+    label {
+        color: $pblue;
+        font-weight: bold;
+    }
+
+    .btn_filter_submit {
+        background: $pred;
+        border-radius :20px;
+        color: $bgColor;
+        width: 70%;
+    }
+}
+
+
+
+@media screen and (max-width:768px){
+    .Filters {
+       border-radius: 13px;
+       margin-top: 2rem;
+       padding: .5rem;
+       .btn_filter {
+           font-size: 12px;
+       }
+    }
+}
+
+@media screen and (max-width:520px){
+    .Flotante {
+        width: 60%;
+        right: 4%;
+    }
+    
+}
+
+@media screen and (max-width:375px){
+    .Flotante {
+        width: 92%;
+        right: 4%;
+    }
+    
+}
